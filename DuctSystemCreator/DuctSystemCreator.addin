@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command DuctSystemCreator</Text>
+    <Description>Some description for DuctSystemCreator</Description>
+    <Assembly>DuctSystemCreator.dll</Assembly>
+    <FullClassName>DuctSystemCreator.Command</FullClassName>
+    <ClientId>64329661-3b3f-4177-95a6-9115f0fd4774</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application DuctSystemCreator</Name>
+    <Assembly>DuctSystemCreator.dll</Assembly>
+    <FullClassName>DuctSystemCreator.App</FullClassName>
+    <ClientId>e35e4ec5-c433-4288-8b42-f91382564347</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
